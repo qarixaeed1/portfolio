@@ -15,8 +15,8 @@ export default function Home({ repositories }) {
       description="Full-Stack Website Developer with 3+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert."
     >
       <Hero />
-      <FeaturedProjects />
       <AboutMe />
+      <FeaturedProjects />
       <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
