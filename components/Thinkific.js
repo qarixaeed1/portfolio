@@ -1,10 +1,11 @@
 import React from "react";
+import CountUp from "react-countup";
 
 export default function Thinkific() {
     return (
         <section className="bg-white dark:bg-gray-800">
             <header className="max-w-6xl mx-auto my-10 text-center bg-white dark:bg-gray-800">
-                <h3 className="text-3xl md:text-7xl font-black mx-20 my-10 md:leading-relaxed">
+                <h3 className="text-4xl md:text-7xl font-black mx-20 my-10 md:leading-relaxed">
                     Need custom features for your Thinkific school?
                 </h3>
                 <img
@@ -20,15 +21,40 @@ export default function Thinkific() {
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
                 <div className="max-w-6xl mx-auto p-20 text-center dark:bg-gray-900">
                     <p className="text-lg">
-                        As a certified Thinkific Development Expert, I can develop any custom feature for your Thinkific site. With excellent Frontend Development Skills I can create a signature experience for your students/customers which will help convert more and increase engagement with your content.
+                        As a certified Thinkific Development Expert, we can develop any custom feature for your Thinkific site. With excellent Frontend Development Skills we can create a signature experience for your students/customers which will help convert more and increase engagement with your content.
                     </p>
+                    <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
+                        <div>
+                            <p className="text-3xl md:text-5xl py-2">
+                                <CountUp  end="100" duration="2" />+
+                            </p>
+                            Features Developed
+                        </div>
+                        <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
+                        <div>
+                            <p className="text-3xl md:text-5xl py-2">
+                                <CountUp end="15" duration="2" />+
+                            </p>
+                            Happy Clients
+                        </div>
+                        <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
+                        <div>
+                            <p className="text-3xl md:text-5xl py-2">
+                                <CountUp end="20" duration="2" />+
+                            </p>
+                            Sites Built
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div className="max-w-6xl mx-auto p-20 text-center">
-                <h3 className="text-3xl md:text-5xl font-black py-10">
+                <h3 className="text-4xl md:text-6xl font-black py-10">
                     Thinkific Services
+                    <span className="block w-1/6 mx-auto border-b-4 border-[#3B82F6] pt-4"></span>
                 </h3>
-                <div className="flex">
+
+                <div className="flex flex-col md:flex-row">
                     <div className="m-6">
                         <h1 className="text-2xl font-bold py-4">
                             Custom App/Feature Development
@@ -55,7 +81,7 @@ export default function Thinkific() {
                             We can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc. We can also develop a custom integration with code.
                         </p>
                     </div>
-
+                    
                 </div>
             </div>
         </section>

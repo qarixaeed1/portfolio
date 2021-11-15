@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function FeaturedProjects() {
   return (
-    <div className="bg-[#F1F1F1] dark:bg-gray-900">
+    <section className="bg-[#F1F1F1] dark:bg-gray-900 py-20">
       <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-10 lg:my-0">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
-            Feautred Projects
+        <header className="flex flex-col md:flex-row justify-between items-center">
+          <h1 className="text-6xl md:text-7xl max-w-lg font-bold my-10 dark:text-gray-600 text-center md:text-left">
+            Featured Projects
           </h1>
           <Link href="/projects">
             <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
@@ -32,7 +32,7 @@ export default function FeaturedProjects() {
         </header>
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <div className="grid md:grid-cols-3 gap-8">
           {/* Single card */}
           <a
             href="https://studypass.com"
@@ -94,6 +94,6 @@ export default function FeaturedProjects() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -29,6 +29,27 @@ const userData = {
   ],
   experience: [
     {
+      title: "Sales Page Contract",
+      company: "Master The Media",
+      year: "2021",
+      companyLink: "https://masterthemedia.co",
+      desc: "Freelance contract to design sales pages for a signature course."
+    },
+    {
+      title: "Website Development Contract",
+      company: "Ann Boothello.",
+      year: "2020",
+      companyLink: "https://annboothello.com",
+      desc: "Freelance contract to develop and design the whole website from scratch."
+    },
+    {
+      title: "Frontend Developer",
+      company: "StudyPass.",
+      year: "2021",
+      companyLink: "https://studypass.com",
+      desc: "A Part-time contract where I lead the technical side of Thinkific LMS. We plan, and excute new features and experience frequently"
+    },
+    {
       title: "Graduation",
       company: "ITU, Lahore.",
       year: "2024",
