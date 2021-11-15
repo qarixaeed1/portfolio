@@ -24,6 +24,40 @@ export default function Thinkific() {
                     </p>
                 </div>
             </div>
+            <div className="max-w-6xl mx-auto p-20 text-center">
+                <h3 className="text-3xl md:text-5xl font-black py-10">
+                    Thinkific Services
+                </h3>
+                <div className="flex">
+                    <div className="m-6">
+                        <h1 className="text-2xl font-bold py-4">
+                            Custom App/Feature Development
+                        </h1>
+                        <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
+                        <p className="text-lg py-6">
+                            We develop a complete solution for any of your custom Apps/Feature needs. We develop Apps through Thinkific APIs and our Full-Stack skills.
+                        </p>
+                    </div>
+                    <div className="m-6">
+                        <h1 className="text-2xl font-bold py-4">
+                            Site Design and Development
+                        </h1>
+                        <span className="block w-1/6 mx-auto border-b-2 border-[#84CC16]"></span>
+                        <p className="text-lg py-6">
+                            We can completely reimagine the design of your School according to your needs. We can implement any technical new feature you need which requires coding.
+                        </p>
+                    </div><div className="m-6">
+                        <h1 className="text-2xl font-bold py-4">
+                            3rd Party Tools Integration
+                        </h1>
+                        <span className="block w-1/6 mx-auto border-b-2 border-[#3B82F6]"></span>
+                        <p className="text-lg py-6">
+                            We can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc. We can also develop a custom integration with code.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
         </section>
     )
 }
