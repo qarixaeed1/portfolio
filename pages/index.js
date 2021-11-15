@@ -15,6 +15,11 @@ export default function Home({ repositories }) {
       description="Full-Stack Website Developer with 3+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert."
     >
       <Hero />
+      <div className="block py-6 md:-my-4 md:py-0">
+        <svg className="animate-bounce mx-auto w-6 h-6 text-amber-900" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </div>
       <AboutMe />
       <FeaturedProjects />
       <LatestCode repositories={repositories} />
@@ -23,7 +28,6 @@ export default function Home({ repositories }) {
 }
 
 export const getServerSideProps = async () => {
-  console.log(process.env.GITHUB_AUTH_TOKEN);
   let token = process.env.GITHUB_AUTH_TOKEN;
 
   const repositories = await getLatestRepos(userData, token);
