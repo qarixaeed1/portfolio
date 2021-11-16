@@ -4,9 +4,9 @@ import userData from "@constants/data";
 export default function AboutMe() {
   return (
     <section className="bg-[#F1F1F1] dark:bg-gray-900 py-10">
-      <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row">
+      <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row text-center lg:text-left">
         <div className="text-container max-w-6">
-          <h1 className="text-6xl md:text-7xl max-w-lg font-bold my-10 dark:text-gray-600 text-center md:text-left" >
+          <h1 className="text-4xl lg:text-7xl max-w-lg font-bold my-10 dark:text-gray-600 lg:text-left" >
             Meet Waleed Shahid
           </h1>
           <p className="text-lg mx-4">
@@ -17,8 +17,8 @@ export default function AboutMe() {
             I have worked with all the popular CMS and LMS Platforms including, WordPress, Shopify, Teachable, Thinkific and any similar platform.
           </p>
         </div>
-        <div className="w-full">
-          <img src={userData.avatarUrl} alt="Waleed" className="shadow rounded-full" />
+        <div className="w-full pt-10 mx-auto">
+          <img src={userData.avatarUrl} alt="Waleed" className="shadow rounded-full mx-auto w-3/4 border-4 border-gray-50" />
         </div>
       </div>
     </section>

@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function FeaturedProjects() {
   return (
-    <section className="bg-[#F1F1F1] dark:bg-gray-900 py-20">
+    <section className="dark:bg-gray-900 py-20">
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center">
-          <h1 className="text-6xl md:text-7xl max-w-lg font-bold my-10 dark:text-gray-600 text-center md:text-left">
+          <h1 className="text-4xl lg:text-7xl max-w-lg font-bold my-10 dark:text-gray-600 text-center md:text-left">
             Featured Projects
           </h1>
           <Link href="/projects">
@@ -31,12 +31,11 @@ export default function FeaturedProjects() {
           </Link>
         </header>
 
-        {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Single card */}
           <a
             href="https://studypass.com"
             className="w-full block col-span-3 shadow-2xl"
+            target="_blank"
           >
             <div className="relative overflow-hidden">
               <img
@@ -52,10 +51,10 @@ export default function FeaturedProjects() {
               </h1>
             </div>
           </a>
-          {/* Single card */}
           <a
             href="https://annboothello.png"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
+            target="_blank"
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
@@ -72,13 +71,12 @@ export default function FeaturedProjects() {
               </h1>
             </div>
           </a>
-          {/* Single card */}
           <a
             href="https://mojasola.thinkific.com"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
+            target="_blank"
           >
             <div className="relative overflow-hidden shadow-2xl">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
                 src="/educata.png"
                 alt="portfolio"

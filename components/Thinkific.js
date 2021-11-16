@@ -1,5 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
+import Testimonial from "./Testimonial";
+
 
 export default function Thinkific() {
     return (
@@ -26,7 +28,7 @@ export default function Thinkific() {
                     <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
                         <div>
                             <p className="text-3xl md:text-5xl py-2">
-                                <CountUp  end="100" duration="2" />+
+                                <CountUp end="100" duration="2" />+
                             </p>
                             Features Developed
                         </div>
@@ -81,9 +83,46 @@ export default function Thinkific() {
                             We can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc. We can also develop a custom integration with code.
                         </p>
                     </div>
-                    
                 </div>
             </div>
+            <Testimonial />
+            <div className="max-w-6xl mx-auto">
+                <div className="flex flex-col-reverse lg:flex-row justify-center items-center my-10 lg:my-20">
+                    <img
+                        className="hidden lg:block w-1/3 rounded-md mx-auto"
+                        src="/t-badge-gray.jpg"
+                     />
+                    <div className="p-4 lg:p-20 lg:ml-20">
+                        <h3 className="text-3xl lg:text-5xl font-bold">
+                            Why Hire Us?
+                        </h3>
+                        <div className="py-10 text-lg">
+                            <p>
+                                <span className="px-2">{"->"}</span>
+                                <strong>One-way Commitment:</strong> Once we take your project, there is no coming back, we implement it by any means possible
+                            </p>
+                            <p>
+                                <span className="px-2">{"->"}</span>
+                                <strong>Best Practices:</strong> We take every detail seriously, and ensure the quality of our work matches industry standard
+                            </p>
+                            <p>
+                                <span className="px-2">{"->"}</span>
+                                <strong>Error-free Code:</strong> We test our code rigorously with all possible scenarios before making the project live
+                            </p>
+                            <p>
+                                <span className="px-2">{"->"}</span>
+                                <strong>Experience:</strong> We bring alot of experience from various industries at various levels
+                            </p>
+                            <p>
+                                <span className="px-2">{"->"}</span>
+                                <strong>Straight-forward:</strong> We do not make any commitments if we are not 100% sure about the outcome. We value your time!
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
         </section>
     )
 }

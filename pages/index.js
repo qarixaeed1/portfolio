@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 import AboutMe from "@components/AboutMe";
+import Testimonial from "@components/Testimonial";
 
 export default function Home({ repositories }) {
   return (
@@ -22,6 +23,7 @@ export default function Home({ repositories }) {
       </div>
       <AboutMe />
       <FeaturedProjects />
+      <Testimonial />
       <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
