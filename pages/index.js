@@ -8,6 +8,7 @@ import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 import AboutMe from "@components/AboutMe";
 import Testimonial from "@components/Testimonial";
+import Contact from "@components/Contact";
 
 export default function Home({ repositories }) {
   return (
@@ -24,6 +25,7 @@ export default function Home({ repositories }) {
       <AboutMe />
       <FeaturedProjects />
       <Testimonial />
+      <Contact bg="bg-white" />
       <LatestCode repositories={repositories} />
     </ContainerBlock>
   );

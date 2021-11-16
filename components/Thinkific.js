@@ -1,5 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
+import Contact from "./Contact";
 import Testimonial from "./Testimonial";
 
 
@@ -91,7 +92,7 @@ export default function Thinkific() {
                     <img
                         className="hidden lg:block w-1/3 rounded-md mx-auto"
                         src="/t-badge-gray.jpg"
-                     />
+                    />
                     <div className="p-4 lg:p-20 lg:ml-20">
                         <h3 className="text-3xl lg:text-5xl font-bold">
                             Why Hire Us?
@@ -118,11 +119,10 @@ export default function Thinkific() {
                                 <strong>Straight-forward:</strong> We do not make any commitments if we are not 100% sure about the outcome. We value your time!
                             </p>
                         </div>
-
                     </div>
                 </div>
             </div>
-            
+            <Contact bg="bg-[#F1F1F1]" />
         </section>
     )
 }
