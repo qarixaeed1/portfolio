@@ -23,7 +23,7 @@ export default function Thinkific() {
             </div>
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
                 <div className="max-w-6xl mx-auto p-20 text-center dark:bg-gray-900">
-                    <p className="text-lg">
+                    <p className="text-lg pb-10">
                         As a certified Thinkific Development Expert, we can develop any custom feature for your Thinkific site. With excellent Frontend Development Skills we can create a signature experience for your students/customers which will help convert more and increase engagement with your content.
                     </p>
                     <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
