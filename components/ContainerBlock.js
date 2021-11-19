@@ -41,16 +41,6 @@ export default function ContainerBlock({ children, ...customMeta }) {
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CW13CJJETH"></script>
-        <script>
-          dangerouslySetInnerHTML = {{
-            __html:
-              `window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-CW13CJJETH');`
-          }}
-        </script>
       </Head>
       <main className="dark:bg-gray-800 w-full">
         <Navbar />
