@@ -18,6 +18,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     <div>
       <Head>
         <title>{meta.title}</title>
+        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta
