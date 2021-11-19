@@ -1,8 +1,9 @@
 import React from "react";
+import userData from "@constants/data";
 
-export default function Contact({bg}) {
+export default function Contact({ bg }) {
     return (
-        <div className={`${bg}`+" dark:bg-gray-900"}>
+        <div className={`${bg}` + " dark:bg-gray-900"}>
             <div className="max-w-6xl mx-auto pt-10">
                 <div className="flex flex-col lg:flex-row justify-center items-center my-10">
                     <div className="p-4 lg:p-20">
@@ -11,19 +12,24 @@ export default function Contact({bg}) {
                         </h3>
                         <div className="py-10 text-lg">
                             <p className="py-2">
-                                <span className="px-2">{"📧"}</span>
+                                <span className="px-2">{"->"}</span>
                                 <a
                                     href="mailto:hello@waleedshahid.com"
                                     className="underline text-blue-500"
                                 >
                                     <strong>hello@waleedshahid.com</strong>
                                 </a>
-                                <strong> OR </strong>
+                                <br />
+                                <span className="px-2">{"->"}</span>
+                                <a
+                                    target="_blank"
+                                    href="https://calendly.com/virtualwaleed/thinkific"
+                                    className="underline text-blue-500"
+                                >
+                                    <strong>Schedule online Meeting</strong>
+                                </a>
                             </p>
-
-                            <iframe className="py-4 w-full h-64" src="https://docs.google.com/forms/d/e/1FAIpQLSemc5iV9UVxTem94LkJocF9-2e-L_TTflLHkny6JW_85M-4gQ/viewform?embedded=true">Loading…</iframe>
                         </div>
-
                     </div>
                     <img
                         className="lg:block w-1/3 rounded-md mx-auto border-2 border-gray-50"
