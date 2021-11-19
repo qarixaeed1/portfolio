@@ -47,6 +47,14 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <div>{children}</div>
         <Footer />
       </main>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CW13CJJETH"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CW13CJJETH');
+      </script>
     </div>
   );
 }
