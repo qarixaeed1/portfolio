@@ -15,7 +15,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
     ...customMeta,
   };
   return (
-    <html>
+    <div>
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -57,6 +57,6 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <div>{children}</div>
         <Footer />
       </main>
-    </html>
+    </div>
   );
 }
