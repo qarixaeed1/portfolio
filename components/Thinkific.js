@@ -28,21 +28,21 @@ export default function Thinkific() {
                     </p>
                     <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
                         <div>
-                            <p className="text-3xl md:text-5xl py-2">
+                            <p className="text-3xl font-black md:text-5xl py-2">
                                 <CountUp end="100" duration="2" />+
                             </p>
                             Features Developed
                         </div>
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
-                            <p className="text-3xl md:text-5xl py-2">
+                            <p className="text-3xl font-black md:text-5xl py-2">
                                 <CountUp end="15" duration="2" />+
                             </p>
                             Happy Clients
                         </div>
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
-                            <p className="text-3xl md:text-5xl py-2">
+                            <p className="text-3xl font-black md:text-5xl py-2">
                                 <CountUp end="20" duration="2" />+
                             </p>
                             Sites Built
@@ -90,7 +90,7 @@ export default function Thinkific() {
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-col-reverse lg:flex-row justify-center items-center my-10 lg:my-20">
                     <img
-                        className="hidden lg:block w-1/3 rounded-md mx-auto"
+                        className="hidden lg:block w-1/3 rounded-md mx-auto shadow-md"
                         src="/t-badge-gray.jpg"
                     />
                     <div className="p-4 lg:p-20 lg:ml-20">
