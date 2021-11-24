@@ -14,7 +14,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="backdrop-filter backdrop-blur-xl sticky top-0 z-10">
+    <nav className="backdrop-filter backdrop-blur-xl sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-10 md:py-10">
         <div className="flex  md:flex-row justify-between items-center">
           <div className="flex flex-col">
