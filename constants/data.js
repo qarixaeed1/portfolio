@@ -3,7 +3,7 @@ const userData = {
   name: "Waleed Shahid",
   designation: "Full-Stack Web Developer",
   avatarUrl: "/avatar.jpg",
-  email: "hello@waleedshahid.com",
+  email: "iamwaleedshahid@gmail.com",
   address: "Lahore, Punjab, Pakistan.",
   projects: [
     {
