@@ -14,10 +14,10 @@ export default function Contact({ bg }) {
                             <p className="py-2">
                                 <span className="px-2">{"->"}</span>
                                 <a
-                                    href="mailto:hello@waleedshahid.com"
+                                    href={`mailto:${userData.email}`}
                                     className="underline text-blue-500"
                                 >
-                                    <strong>hello@waleedshahid.com</strong>
+                                    <strong>{userData.email}</strong>
                                 </a>
                                 <br />
                                 <span className="px-2">{"->"}</span>
