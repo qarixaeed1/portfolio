@@ -3,7 +3,6 @@ import CountUp from "react-countup";
 import Contact from "./Contact";
 import Testimonial from "./Testimonial";
 
-
 export default function Thinkific() {
     return (
         <section className="bg-white dark:bg-gray-800">
@@ -36,14 +35,14 @@ export default function Thinkific() {
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="15" duration="2" />+
+                                <CountUp end="20" duration="2" />+
                             </p>
                             Happy Clients
                         </div>
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="20" duration="2" />+
+                                <CountUp end="30" duration="2" />+
                             </p>
                             Sites Built
                         </div>

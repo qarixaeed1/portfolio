@@ -3,7 +3,7 @@ import userData from "@constants/data";
 
 export default function Contact({ bg }) {
     return (
-        <div className={`${bg}` + " dark:bg-gray-900"}>
+        <div className={`${bg}` + " dark:bg-gray-900"} id="contact">
             <div className="max-w-6xl mx-auto py-10">
                 <div className="flex flex-col lg:flex-row justify-center items-center my-10">
                     <div className="p-4 lg:p-20">
