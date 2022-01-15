@@ -7,7 +7,7 @@ export default function AboutMe() {
       <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row text-center lg:text-left">
         <div className="text-container max-w-6">
           <h1 className="text-4xl lg:text-7xl max-w-lg font-bold my-10 dark:text-gray-600 lg:text-left" >
-            Meet Waleed Shahid
+            Meet Waleed
           </h1>
           <p className="text-lg mx-4">
             I have 3+ years experience working as a Website Developer focused on UX .I work with Javascript, HTML, CSS, SASS, React, NextJS, PHP, NODEJS, Express, and Tailwind CSS.

@@ -8,7 +8,7 @@ const userData = {
   projects: [
     {
       title: "StudyPass",
-      link: "https://studypass.com",
+      link: "https://explore.studypass.com",
       imgUrl: "/studypass.png",
     },
     {
@@ -19,12 +19,22 @@ const userData = {
     {
       title: "My Family Learning Hub",
       link: "https://thefamilylearninghub.thinkific.com",
-      imgUrl: "/myfamilylearninghub.png",
+      imgUrl: "/My-Family-Learning-Hub.png",
     },
     {
       title: "Educata",
       link: "https://mojasola.thinkific.com",
-      imgUrl: "/educata.png",
+      imgUrl: "/mojasola.png",
+    },
+    {
+      title: "TwinRay Academy",
+      link: "https:learn.twinray.com",
+      imgUrl: "TwinRay-Academy-School-of-Divinity.png",
+    },
+    {
+      title: "The Brand Stylist Academy",
+      link: "https://thebrandstylist.thinkific.com",
+      imgUrl: "The-Brand-Stylist-Academy.png",
     }
   ],
   experience: [
@@ -36,18 +46,18 @@ const userData = {
       desc: "Freelance contract to design sales pages for a signature course."
     },
     {
-      title: "Website Development Contract",
-      company: "Ann Boothello.",
-      year: "2020",
-      companyLink: "https://annboothello.com",
-      desc: "Freelance contract to develop and design the whole website from scratch."
-    },
-    {
       title: "Frontend Developer",
       company: "StudyPass.",
       year: "2021",
       companyLink: "https://studypass.com",
       desc: "A Part-time contract where I lead the technical side of Thinkific LMS. We plan, and excute new features and experience frequently"
+    },
+    {
+      title: "Website Development Contract",
+      company: "Ann Boothello.",
+      year: "2020",
+      companyLink: "https://annboothello.com",
+      desc: "Freelance contract to develop and design the whole website from scratch."
     },
     {
       title: "Graduation",

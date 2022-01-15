@@ -38,11 +38,12 @@ export default function FeaturedProjects() {
             target="_blank"
           >
             <div className="relative overflow-hidden">
-              <img
-                src="/studypass.png"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
+              <div className="h-96 overflow-y-auto object-cover">
+                <img
+                  src="/studypass.png"
+                  alt="portfolio"
+                />
+              </div>
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 StudyPass
               </h1>
@@ -52,19 +53,19 @@ export default function FeaturedProjects() {
             </div>
           </a>
           <a
-            href="https://annboothello.png"
+            href="https://learn.twinray.com"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
             target="_blank"
           >
             <div className="relative overflow-hidden">
-              {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
-                src="/annboothello.png"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
+              <div className="h-96 overflow-y-auto object-cover">
+                <img
+                  src="/TwinRay-Academy-School-of-Divinity.png"
+                  alt="portfolio"
+                />
+              </div>
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Ann Boothello
+                TwinRay Academy
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
@@ -72,18 +73,19 @@ export default function FeaturedProjects() {
             </div>
           </a>
           <a
-            href="https://mojasola.thinkific.com"
+            href="https://thebrandstylist.thinkific.com"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
             target="_blank"
           >
             <div className="relative overflow-hidden shadow-2xl">
-              <img
-                src="/educata.png"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
-              />
+              <div className="h-96 overflow-y-auto object-cover">
+                <img
+                  src="/The-Brand-Stylist-Academy.png"
+                  alt="portfolio"
+                />
+              </div>
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Educata
+                The Brand Stylist Academy
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
