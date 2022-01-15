@@ -13,8 +13,8 @@ import Contact from "@components/Contact";
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Waleed Shahid - Full-Stack Developer"
-      description="Full-Stack Website Developer with 3+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert."
+      title="Waleed Shahid - Full-stack Developer"
+      description="Full-stack Developer with 3+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert."
     >
       <Hero />
       <div className="block py-6 md:-my-4 md:py-0">

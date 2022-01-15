@@ -1,18 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import CountUp from "react-countup";
 import Contact from "./Contact";
 import Testimonial from "./Testimonial";
+import { useTheme } from "next-themes";
 
 export default function Thinkific() {
+    const {theme} = useTheme()
     return (
         <section className="bg-white dark:bg-gray-800">
             <header className="max-w-6xl mx-auto my-10 text-center bg-white dark:bg-gray-800">
                 <h3 className="text-4xl md:text-7xl font-black mx-20 my-10 md:leading-relaxed">
-                    Need custom features for your Thinkific school?
+                    Need Custom Development for your Thinkific School?
                 </h3>
                 <img
                     className="block mx-auto w-24 h-22 md:w-48 md:h-46"
-                    src="/Thinkific-Experts-Badge.webp"
+                    src={theme === "light" ? "/Thinkific-Experts-Badge.webp" : "/Thinkific-Experts-Badge-White.png"}
                 />
             </header>
             <div className="block py-6 md:-my-4 md:py-0">
