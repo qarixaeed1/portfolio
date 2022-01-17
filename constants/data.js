@@ -39,6 +39,13 @@ const userData = {
   ],
   experience: [
     {
+      title: "Thinkfic Design Contract",
+      company: "TwinRay Academy.",
+      year: "2022",
+      companyLink: "https://learn.twinray.com",
+      desc: "Redesign and develop the thinkific website of TwinRay Academy."
+    },
+    {
       title: "Sales Page Contract",
       company: "Master The Media",
       year: "2021",
@@ -58,20 +65,6 @@ const userData = {
       year: "2020",
       companyLink: "https://annboothello.com",
       desc: "Freelance contract to develop and design the whole website from scratch."
-    },
-    {
-      title: "Graduation",
-      company: "ITU, Lahore.",
-      year: "2024",
-      companyLink: "https://itu.edu.pk",
-      desc: "Major in Economics and Data Science with an Expected CGPA of 3.5. Nobdy asks this, but just in case.",
-    },
-    {
-      title: "High School",
-      company: "Government College University, Lahore",
-      year: "2020",
-      companyLink: "https://gcu.edu.pk",
-      desc: "Subjects being Engineering - I barely survived with 80% marks aggregate. Flex fridays, fellas.",
     },
   ],
   resumeUrl:

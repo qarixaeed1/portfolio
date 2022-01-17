@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import CountUp from "react-countup";
 import Contact from "./Contact";
 import Testimonial from "./Testimonial";
