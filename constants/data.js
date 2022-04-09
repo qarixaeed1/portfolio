@@ -28,7 +28,7 @@ const userData = {
     },
     {
       title: "TwinRay Academy",
-      link: "https:learn.twinray.com",
+      link: "https://learn.twinray.com",
       imgUrl: "TwinRay-Academy-School-of-Divinity.png",
     },
     {

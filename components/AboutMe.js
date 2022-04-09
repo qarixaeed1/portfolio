@@ -10,11 +10,9 @@ export default function AboutMe() {
             Meet Waleed
           </h1>
           <p className="text-lg mx-4">
-            I have 3+ years experience working as a Website Developer focused on UX .I work with Javascript, HTML, CSS, SASS, React, NextJS, PHP, NODEJS, Express, and Tailwind CSS.
+            I help you connect the most crucial technical dots of success for your business on Thinkific. With experience working with Enterprise clients who deliver courses to large audience at global scale, I am able to create custom made solutions that perfectly suits your needs.
             <br />
-            User experience matters the most to me, and I love to develop great User Experiences that brings great results to your business as well as the audience.
-            <br />
-            I have worked with WordPress, Shopify, and Thinkific LMS to develop custom solutions for clients from industries including Coaching, and Courses.
+            With 3+ years of experience in e-learning industry and 30+ successful projects I have some real value to bring on the table which will bring peace-of-mind to your company and will surely create exceptional results, that you deserve.
           </p>
         </div>
         <div className="w-full pt-10 mx-auto">

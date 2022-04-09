@@ -8,20 +8,20 @@ export default function Hero() {
     <div className="flex flex-row justify-center items-start overflow-hidden">
       <div className="w-full md:w-1/2 mx-auto text-center p-10 lg:p-20">
         <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 px-2 my-4">
-          Developer
+          Full-stack Developer
         </h1>
         <RoughNotationGroup show={true}>
           <RainbowHighlight color={colors[0]}>
             <div className="border-solid border-2 border-transparent"></div>
           </RainbowHighlight>
           <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 px-2 my-4">
-            Designer
+            UI/UX Designer
           </h1>
           <RainbowHighlight color={colors[1]}>
             <div className="border-solid border-2 border-transparent"></div>
           </RainbowHighlight>
           <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 px-2 my-4">
-            Programmer
+            Thinkific Expert
           </h1>
           <RainbowHighlight color={colors[2]}>
             <div className="border-solid border-2 border-transparent"></div>
