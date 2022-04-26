@@ -1,7 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
 import Contact from "./Contact";
-import Testimonial from "./Testimonial";
 import { useTheme } from "next-themes";
 
 export default function Thinkific() {
@@ -87,7 +86,6 @@ export default function Thinkific() {
                     </div>
                 </div>
             </div>
-            <Testimonial />
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-col-reverse lg:flex-row justify-center items-center my-10 lg:my-20">
                     <img

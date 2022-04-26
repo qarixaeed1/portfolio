@@ -7,7 +7,6 @@ import Hero from "../components/Hero";
 import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 import AboutMe from "@components/AboutMe";
-import Testimonial from "@components/Testimonial";
 import Contact from "@components/Contact";
 
 export default function Home({ repositories }) {
@@ -24,7 +23,6 @@ export default function Home({ repositories }) {
       </div>
       <AboutMe />
       <FeaturedProjects />
-      <Testimonial />
       <Contact bg="bg-white" />
       <LatestCode repositories={repositories} />
     </ContainerBlock>
