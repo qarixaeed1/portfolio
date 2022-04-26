@@ -2,14 +2,12 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import ContainerBlock from "../components/ContainerBlock";
 import FeaturedProjects from "../components/FeaturedProjects";
-import LatestCode from "../components/LatestCode";
 import Hero from "../components/Hero";
-import getLatestRepos from "@lib/getLatestRepos";
 import userData from "@constants/data";
 import AboutMe from "@components/AboutMe";
 import Contact from "@components/Contact";
 
-export default function Home({ repositories }) {
+export default function Home() {
   return (
     <ContainerBlock
       title="Waleed Shahid - Full-stack Developer"
@@ -24,19 +22,6 @@ export default function Home({ repositories }) {
       <AboutMe />
       <FeaturedProjects />
       <Contact bg="bg-white" />
-      <LatestCode repositories={repositories} />
     </ContainerBlock>
   );
 }
-
-export const getServerSideProps = async () => {
-  let token = process.env.GITHUB_AUTH_TOKEN;
-
-  const repositories = await getLatestRepos(userData, token);
-
-  return {
-    props: {
-      repositories,
-    },
-  };
-};
