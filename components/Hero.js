@@ -6,7 +6,7 @@ export default function Hero() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
-      <div className="w-full md:w-1/2 mx-auto text-center p-6 lg:p-12">
+      <div className="w-full md:w-1/2 mx-auto text-center p-6 lg:p-12 lg:m-12">
         <h1 className="text-4xl md:text-6xl font-bold text-gray-700 dark:text-gray-200 px-2 my-4">
           Full-stack Developer
         </h1>
