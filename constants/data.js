@@ -35,6 +35,21 @@ const userData = {
       title: "The Brand Stylist Academy",
       link: "https://thebrandstylist.thinkific.com",
       imgUrl: "The-Brand-Stylist-Academy.png",
+    },
+    {
+      title: "Positive Intelligence",
+      link: "https://learn.positiveintelligence.com",
+      imgUrl: "positiveintelligence.jpeg",
+    },
+    {
+      title: "Master The Media",
+      link: "https://masterthemedia.thinkific.com",
+      imgUrl: "masterthemedia.jpeg",
+    },
+    {
+      title: "theChapter Academy",
+      link: "https://thechapter.academy",
+      imgUrl: "thechapter.jpeg",
     }
   ],
   experience: [
