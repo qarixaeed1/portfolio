@@ -12,6 +12,11 @@ const userData = {
       imgUrl: "/studypass.png",
     },
     {
+      title: "Positive Intelligence",
+      link: "https://learn.positiveintelligence.com",
+      imgUrl: "positiveintelligence.jpeg",
+    },
+    {
       title: "Ann Boothello",
       link: "https://annboothello.com",
       imgUrl: "/annboothello.png",
@@ -34,12 +39,7 @@ const userData = {
     {
       title: "The Brand Stylist Academy",
       link: "https://thebrandstylist.thinkific.com",
-      imgUrl: "The-Brand-Stylist-Academy.png",
-    },
-    {
-      title: "Positive Intelligence",
-      link: "https://learn.positiveintelligence.com",
-      imgUrl: "positiveintelligence.jpeg",
+      imgUrl: "brandstylistacademy.jpeg",
     },
     {
       title: "Master The Media",
