@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Waleed Shahid - Full-Stack Developer",
-    description: `Full-Stack Website Developer with 3+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert.`,
+    title: "Waleed Shahid - Thinkific Expert Developer",
+    description: `Thinkific Expert Developer with 3+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert.`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,

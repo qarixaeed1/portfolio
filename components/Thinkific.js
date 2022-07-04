@@ -36,7 +36,7 @@ export default function Thinkific() {
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="20" duration="2" />+
+                                <CountUp end="30" duration="2" />+
                             </p>
                             Happy Clients
                         </div>
@@ -48,7 +48,6 @@ export default function Thinkific() {
                             Sites Built
                         </div>
                     </div>
-
                 </div>
             </div>
             <div className="max-w-6xl mx-auto p-20 text-center">
@@ -60,7 +59,7 @@ export default function Thinkific() {
                 <div className="flex flex-col md:flex-row">
                     <div className="m-6">
                         <h1 className="text-2xl font-bold py-4">
-                            Custom App/Feature Development
+                            Custom Feature/SSO Development
                         </h1>
                         <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
                         <p className="text-lg py-6">
@@ -81,7 +80,7 @@ export default function Thinkific() {
                         </h1>
                         <span className="block w-1/6 mx-auto border-b-2 border-[#3B82F6]"></span>
                         <p className="text-lg py-6">
-                            We can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc. We can also develop a custom integration with code.
+                            We can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc. We can also develop a custom integration with the help of Thinkific APIs.
                         </p>
                     </div>
                 </div>
@@ -99,7 +98,7 @@ export default function Thinkific() {
                         <div className="py-10 text-lg">
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>One-way Commitment:</strong> Once we take your project, there is no coming back, we implement it by any means possible
+                                <strong>Thinkific APIs Expert:</strong> We are the one of the very few Thinkific Experts who really shine at low-level Thinkific APIs development
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
