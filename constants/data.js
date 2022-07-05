@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "iwaleedshahid",
   name: "Waleed Shahid",
-  designation: "Full-Stack Web Developer",
+  designation: "Thinkific Expert Developer",
   avatarUrl: "/avatar.jpg",
   email: "iamwaleedshahid@gmail.com",
   address: "Lahore, Punjab, Pakistan.",
@@ -54,6 +54,20 @@ const userData = {
   ],
   experience: [
     {
+      title: "Thinkific x Microsoft SSO",
+      company: "NAS Academy Qatar",
+      year: "2022",
+      companyLink: "https://nas.academy.aero",
+      desc: "Developed an SSO between Thinkific and Microsoft Accounts"
+    },
+    {
+      title: "Custom Invoicing, Checkout, CRM with Thinkific",
+      company: "theChapter Academy",
+      year: "2022",
+      companyLink: "https://www.thechapter.academy",
+      desc: "Developed custom Checkout, Invoicing, CRM, and Webinar Registrations with Saudi Local Systems"
+    },
+    {
       title: "Thinkfic Design Contract",
       company: "TwinRay Academy.",
       year: "2022",
@@ -81,6 +95,32 @@ const userData = {
       companyLink: "https://annboothello.com",
       desc: "Freelance contract to develop and design the whole website from scratch."
     },
+  ],
+  testimonials: [
+    {
+      client: "Geoff Peterson",
+      content: "Highly recommend Waleed. He did a significant amount of customisation on our Thinkific site that required a lot of technical ability. He understood our requirements and built solid solutions for us. Waleed was always available for any issues and communication was easy",
+      about: "Founder, Growing Minds",
+      avatar: "/geoff.jpg",
+    },
+    {
+      client: "Darren Finkelstein",
+      content: "This was the best experience, Waleed did a fantastic job in creating my Online Program using Thinkific.His attention to detail was amazing, he demonstrated a sincere desire to ensure my students would receive a great online experience.Waleed met the due date and was very professional in all the dealings we had together.I will recommend Waleed to my all clients",
+      about: "Accountability Coach, Tick Those Boxes",
+      avatar: "/darren.jpeg",
+    },
+    {
+      client: "Jure Kochman",
+      content: "Very good and open communication. Far above anything I experienced so far. Waleed also did an initial call to clarify all the topics we worked on and it really felt comfortable to know who is doing the work on the other side. His ability to listen and adapt and at the same time share his opinion is very useful. I am looking forward to further engagements. Would definetely recommend.",
+      about: "Founder, Educata",
+      avatar: "/jure.jpg",
+    },
+    {
+      client: "Ann Boothello",
+      content: "Waleed is switched on, keen to deliver quality work and always gives suggestion to ensure you make the best decision, on how to do things better. Quick to respond as well. Overall, I think he's a bright mind and awesome to work with. I will use him in the future to manage evolving, tweaks and fixes on my site.",
+      about: "Purpose Coach",
+      avatar: "/ann.png",
+    }
   ],
   resumeUrl:
     "/",

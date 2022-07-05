@@ -2,9 +2,10 @@ import React from "react";
 import CountUp from "react-countup";
 import Contact from "./Contact";
 import { useTheme } from "next-themes";
+import Testimonials from "./Testimonials";
 
 export default function Thinkific() {
-    const {theme} = useTheme()
+    const { theme } = useTheme()
     return (
         <section className="bg-white dark:bg-gray-800">
             <header className="max-w-6xl mx-auto my-10 text-center bg-white dark:bg-gray-800">
@@ -13,7 +14,7 @@ export default function Thinkific() {
                 </h3>
                 <img
                     className="block mx-auto w-24 h-22 md:w-48 md:h-46"
-                    src={theme === "light" ? "/Thinkific-Experts-Badge.webp" : "/Thinkific-Experts-Badge-White.png"}
+                    src={theme == "light" ? "/Thinkific-Experts-Badge.webp" : "/Thinkific-Experts-Badge-White.png"}
                 />
             </header>
             <div className="block py-6 md:-my-4 md:py-0">
@@ -24,7 +25,7 @@ export default function Thinkific() {
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
                 <div className="max-w-6xl mx-auto p-20 text-center dark:bg-gray-900">
                     <p className="text-lg pb-10">
-                        As a certified Thinkific Development Expert, we can develop any custom feature for your Thinkific site. With excellent Frontend Development Skills we can create a signature experience for your students/customers which will help convert more and increase engagement with your content.
+                        As a certified Thinkific Development Expert, we can develop any custom feature for your Thinkific site. With Top-notch Development Skills we can create a smooth experience for your customers which will help convert more and increase engagement with your content.
                     </p>
                     <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
                         <div>
@@ -52,36 +53,45 @@ export default function Thinkific() {
             </div>
             <div className="max-w-6xl mx-auto p-20 text-center">
                 <h3 className="text-4xl md:text-6xl font-black py-10">
-                    Thinkific Services
+                    Happy Clients
                     <span className="block w-1/6 mx-auto border-b-4 border-[#3B82F6] pt-4"></span>
                 </h3>
+                <Testimonials />
+            </div>
+            <div className="bg-[#F1F1F1] dark:bg-gray-900">
+                <div className="max-w-6xl mx-auto p-20 text-center">
+                    <h3 className="text-4xl md:text-6xl font-black py-10">
+                        Thinkific Services
+                        <span className="block w-1/6 mx-auto border-b-4 border-[#3B82F6] pt-4"></span>
+                    </h3>
 
-                <div className="flex flex-col md:flex-row">
-                    <div className="m-6">
-                        <h1 className="text-2xl font-bold py-4">
-                            Custom Feature/SSO Development
-                        </h1>
-                        <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
-                        <p className="text-lg py-6">
-                            We develop a complete solution for any of your custom Apps/Feature needs. We develop Apps through Thinkific APIs and our Full-Stack skills.
-                        </p>
-                    </div>
-                    <div className="m-6">
-                        <h1 className="text-2xl font-bold py-4">
-                            Site Design and Development
-                        </h1>
-                        <span className="block w-1/6 mx-auto border-b-2 border-[#84CC16]"></span>
-                        <p className="text-lg py-6">
-                            We can completely reimagine the design of your School according to your needs. We can implement any technical new feature you need which requires coding.
-                        </p>
-                    </div><div className="m-6">
-                        <h1 className="text-2xl font-bold py-4">
-                            3rd Party Tools Integration
-                        </h1>
-                        <span className="block w-1/6 mx-auto border-b-2 border-[#3B82F6]"></span>
-                        <p className="text-lg py-6">
-                            We can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc. We can also develop a custom integration with the help of Thinkific APIs.
-                        </p>
+                    <div className="flex flex-col md:flex-row">
+                        <div className="m-6">
+                            <h1 className="text-2xl font-bold py-4">
+                                Custom Feature/SSO Development
+                            </h1>
+                            <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
+                            <p className="text-lg py-6">
+                                We develop a complete solution for any of your custom Apps/Feature needs. We develop Apps through Thinkific APIs and our Full-Stack skills.
+                            </p>
+                        </div>
+                        <div className="m-6">
+                            <h1 className="text-2xl font-bold py-4">
+                                Site Design and Development
+                            </h1>
+                            <span className="block w-1/6 mx-auto border-b-2 border-[#84CC16]"></span>
+                            <p className="text-lg py-6">
+                                We can completely reimagine the design of your School according to your needs. We can implement any technical new feature you need which requires coding.
+                            </p>
+                        </div><div className="m-6">
+                            <h1 className="text-2xl font-bold py-4">
+                                3rd Party Tools Integration
+                            </h1>
+                            <span className="block w-1/6 mx-auto border-b-2 border-[#3B82F6]"></span>
+                            <p className="text-lg py-6">
+                                We can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc. We can also develop a custom integration with the help of Thinkific APIs.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -98,7 +108,7 @@ export default function Thinkific() {
                         <div className="py-10 text-lg">
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Thinkific APIs Expert:</strong> We are the one of the very few Thinkific Experts who really shine at low-level Thinkific APIs development
+                                <strong>Thinkific APIs Expert:</strong> We are one of the very few Thinkific Experts who really shine at low-level Thinkific APIs development
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
