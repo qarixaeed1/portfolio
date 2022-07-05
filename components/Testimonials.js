@@ -14,8 +14,8 @@ export default function Testimonials() {
             autoPlay={true}
             interval={6100}
         >
-            {testimonials.map((testimonial) => (
-                <div className="flex flex-col justify-center items-center p-10">
+            {testimonials.map((testimonial, index) => (
+                <div className="flex flex-col justify-center items-center p-10" key={index}>
                     <p className="font-light text-xl my-2">"{testimonial.content}"</p>
                     <div className="my-2 w-20">
                         <img className="rounded-full w-full" src={testimonial.avatar} alt={testimonial.client} />
