@@ -3,7 +3,8 @@ const userData = {
   name: "Waleed Shahid",
   designation: "Thinkific Expert Developer",
   avatarUrl: "/avatar.jpg",
-  email: "iamwaleedshahid@gmail.com",
+  email: "contact@waleedshahid.com",
+  phone: "+18609094885",
   address: "Lahore, Punjab, Pakistan.",
   projects: [
     {
