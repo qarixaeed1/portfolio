@@ -23,10 +23,10 @@ export default function Contact({ bg }) {
                                 <span className="px-2">{"->"}</span>
                                 <a
                                     target="_blank"
-                                    href="https://calendly.com/virtualwaleed/thinkific"
+                                    href="https://calendly.com/nomist/new-project"
                                     className="underline text-blue-500"
                                 >
-                                    <strong>Schedule online Meeting</strong>
+                                    <strong>Schedule online Meeting with Me</strong>
                                 </a>
                             </p>
                         </div>

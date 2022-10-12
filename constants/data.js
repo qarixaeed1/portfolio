@@ -1,10 +1,10 @@
 const userData = {
   githubUsername: "iwaleedshahid",
   name: "Waleed Shahid",
-  designation: "Thinkific Expert Developer",
+  designation: "Full Stack Developer",
   avatarUrl: "/avatar.jpg",
   email: "contact@waleedshahid.com",
-  phone: "+18609094885",
+  phone: "+923114698105",
   address: "Lahore, Punjab, Pakistan.",
   projects: [
     {
@@ -126,10 +126,9 @@ const userData = {
   resumeUrl:
     "/",
   socialLinks: {
-    twitter: "https://twitter.com/virtualwaleed",
     linkedin: "https://linkedin.com/in/virtualwaleed",
     github: "https://github.com/iwaleedshahid",
-    instagram: "https://instagram.com/virtualwaleed"
+    instagram: "https://instagram.com/waleedshahid321"
   },
 };
 

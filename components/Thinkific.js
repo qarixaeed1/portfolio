@@ -10,11 +10,11 @@ export default function Thinkific() {
         <section className="bg-white dark:bg-gray-800">
             <header className="max-w-6xl mx-auto my-10 text-center bg-white dark:bg-gray-800">
                 <h3 className="text-4xl md:text-7xl font-black mx-20 my-10 md:leading-relaxed">
-                    Need Custom Development for your Thinkific School?
+                    Need Custom Development/Design for your Thinkific Website?
                 </h3>
                 <img
                     className="block mx-auto w-24 h-22 md:w-48 md:h-46"
-                    src={theme == "light" ? "/Thinkific-Experts-Badge.webp" : "/Thinkific-Experts-Badge-White.png"}
+                    src="/Thinkific-Experts-Badge.webp"
                 />
             </header>
             <div className="block py-6 md:-my-4 md:py-0">
@@ -25,7 +25,7 @@ export default function Thinkific() {
             <div className="bg-[#F1F1F1] dark:bg-gray-900">
                 <div className="max-w-6xl mx-auto p-20 text-center dark:bg-gray-900">
                     <p className="text-lg pb-10">
-                        As a certified Thinkific Development Expert, we can develop any custom feature for your Thinkific site. With Top-notch Development Skills we can create a smooth experience for your customers which will help convert more and increase engagement with your content.
+                        As a certified Thinkific Development Expert, I can develop any custom feature or design for your Thinkific site. With Full Stack Development Skills we can create a smooth experience for your customers which will help convert more and increase engagement with your content.
                     </p>
                     <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
                         <div>
@@ -71,7 +71,7 @@ export default function Thinkific() {
                             </h1>
                             <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
                             <p className="text-lg py-4">
-                                We develop a complete solution for any of your custom Apps/Feature needs. We develop Apps through Thinkific APIs and our Full-Stack skills.
+                                I develop a complete solution for any of your custom Apps/Feature needs. I develop Apps through Thinkific APIs, Zapier and our Full Stack skills.
                             </p>
                         </div>
                         <div className="m-4">
@@ -80,7 +80,7 @@ export default function Thinkific() {
                             </h1>
                             <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
                             <p className="text-lg py-4">
-                                We can reimagine the design of your School according to your needs. We can implement any technical new feature you need which requires coding.
+                                I can reimagine the design of your website according to your needs. I can implement any technical new feature you need which requires coding.
                             </p>
                         </div>
                         <div className="m-4">
@@ -89,7 +89,7 @@ export default function Thinkific() {
                             </h1>
                             <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
                             <p className="text-lg py-4">
-                                We can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc.
+                                I can integrate your School data with any of your current services like CRM, Zapier, Payment Automation Vendors etc.
                             </p>
                         </div>
                         <div className="m-4">
@@ -98,7 +98,7 @@ export default function Thinkific() {
                             </h1>
                             <span className="block w-1/6 mx-auto border-b-2 border-[#F59E0B]"></span>
                             <p className="text-lg py-4">
-                                Need SSO login for your customers? We can help you offer multiple login & registration options for your customers.
+                                Need SSO login for your customers? I can help you offer multiple login & registration options for your customers.
                             </p>
                         </div>
                     </div>
@@ -112,28 +112,28 @@ export default function Thinkific() {
                     />
                     <div className="p-4 lg:p-20 lg:ml-20">
                         <h3 className="text-3xl lg:text-5xl font-bold">
-                            Why Hire Us?
+                            Why Hire Me?
                         </h3>
                         <div className="py-10 text-lg">
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Thinkific APIs Expert:</strong> We are one of the very few Thinkific Experts who really shine at low-level Thinkific APIs development
+                                <strong>Thinkific APIs Expert:</strong> I are one of the very few Thinkific Experts who really shine at low-level Thinkific APIs development
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Best Practices:</strong> We take every detail seriously, and ensure the quality of our work matches industry standard
+                                <strong>Best Practices:</strong> I take every detail seriously, and ensure the quality of our work matches industry standard
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Error-free Code:</strong> We test our code rigorously with all possible scenarios before making the project live
+                                <strong>Error-free Code:</strong> I test our code rigorously with all possible scenarios before making the project live
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Experience:</strong> We bring alot of experience from various industries at various levels
+                                <strong>Experience:</strong> I bring alot of experience from various industries at various levels
                             </p>
                             <p>
                                 <span className="px-2">{"->"}</span>
-                                <strong>Straight-forward:</strong> We do not make any commitments if we are not 100% sure about the outcome. We value your time!
+                                <strong>Straight-forward:</strong> I do not make any commitments if I am not 100% sure about the outcome. I value your time!
                             </p>
                         </div>
                     </div>
