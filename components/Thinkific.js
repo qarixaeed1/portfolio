@@ -9,7 +9,7 @@ export default function Thinkific() {
     return (
         <section className="bg-white dark:bg-gray-800">
             <header className="max-w-6xl mx-auto my-10 text-center bg-white dark:bg-gray-800">
-                <h3 className="text-4xl md:text-7xl font-black mx-20 my-10 md:leading-relaxed">
+                <h3 className="text-2xl md:text-5xl font-black mx-20 my-10 md:leading-relaxed">
                     Need Custom Development/Design for your Thinkific Website?
                 </h3>
                 <img
