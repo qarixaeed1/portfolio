@@ -48,6 +48,13 @@ export default function Thinkific() {
                             </p>
                             Sites Built
                         </div>
+                        <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
+                        <div>
+                            <p className="text-3xl font-black md:text-5xl py-2">
+                                <CountUp end="50" duration="2" />M+
+                            </p>
+                            In Client Sales
+                        </div>
                     </div>
                 </div>
             </div>
