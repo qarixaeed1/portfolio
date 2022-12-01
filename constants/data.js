@@ -3,8 +3,8 @@ const userData = {
   name: "Waleed Shahid",
   designation: "Full Stack Developer",
   avatarUrl: "/avatar.jpg",
-  email: "contact@waleedshahid.com",
-  phone: "+923114698105",
+  email: "waleed@nomist.io",
+  phone: "+8609094885",
   address: "Lahore, Punjab, Pakistan.",
   projects: [
     {
@@ -126,8 +126,8 @@ const userData = {
   resumeUrl:
     "/",
   socialLinks: {
-    linkedin: "https://linkedin.com/in/virtualwaleed",
-    github: "https://github.com/iwaleedshahid",
+    linkedin: "https://www.linkedin.com/in/iamwaleedshahid/",
+    github: "https://github.com/iamwaleedshahid",
     instagram: "https://instagram.com/waleedshahid321"
   },
 };

@@ -124,7 +124,7 @@ export default function Navbar() {
               </svg>
             </a>
             <a
-              href={"https://calendly.com/nomist/new-project"}
+              href={"https://calendly.com/waleed_shahid/new-project"}
               target="_blank"
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
