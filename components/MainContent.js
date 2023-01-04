@@ -102,7 +102,7 @@ export default function MainContent() {
                 <div className="flex flex-col-reverse lg:flex-row justify-center items-center my-10 lg:my-20">
                     <img
                         className="hidden lg:block w-1/3 rounded-md mx-auto shadow-md"
-                        src="/t-badge-gray.jpg"
+                        src="/qari-side.jpeg"
                     />
                     <div className="p-4 lg:p-20 lg:ml-20">
                         <h3 className="text-3xl lg:text-5xl font-bold">
