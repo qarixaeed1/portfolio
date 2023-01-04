@@ -32,7 +32,7 @@ export default function Contact({ bg }) {
                         </div>
                     </div>
                     <img
-                        className="lg:block w-1/3 rounded-md mx-auto border-2 border-gray-50 shadow-md"
+                        className="lg:block w-1/2 rounded-md mx-auto border-2 border-gray-50 shadow-md"
                         src="/avatar.jpeg"
                     />
                 </div>
