@@ -56,7 +56,7 @@ export default function Navbar() {
                 )}
               </a>
             </Link>
-            <Link href="/experience">
+            {/* <Link href="/experience">
               <a
                 className={`text-base  ${router.asPath === "/experience"
                   ? "text-gray-800 font-bold dark:text-gray-400"
@@ -105,7 +105,7 @@ export default function Navbar() {
                   </svg>
                 )}
               </a>
-            </Link>
+            </Link> */}
           </div>
 
           <div className="space-x-4 flex flex-row items-center">
@@ -124,7 +124,7 @@ export default function Navbar() {
               </svg>
             </a>
             <a
-              href={"https://calendly.com/waleed_shahid/new-project"}
+              href={"https://calendly.com/qarixaeed1/new-project"}
               target="_blank"
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
@@ -173,21 +173,21 @@ export default function Navbar() {
           </div>
         </div>
         <div className="space-x-8 block md:hidden mt-4">
-          <Link href="/thinkific">
+          {/* <Link href="/thinkific">
             <a className="text-base font-normal text-gray-600 dark:text-gray-300">
               Thinkific
             </a>
-          </Link>
+          </Link> */}
           <Link href="/projects">
             <a className="text-base font-normal text-gray-600 dark:text-gray-300">
               Projects
             </a>
           </Link>
-          <Link href="/experience">
+          {/* <Link href="/experience">
             <a className="text-base font-normal text-gray-600 dark:text-gray-300">
               Experience
             </a>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </nav>

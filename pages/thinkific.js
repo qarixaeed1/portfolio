@@ -1,11 +1,11 @@
 import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
-import Thinkific from "@components/Thinkific";
+import MainContent from "@components/MainContent";
 
 export default function thinkific() {
     return (
         <ContainerBlock>
-            <Thinkific />
+            <MainContent />
         </ContainerBlock>
     );
 }

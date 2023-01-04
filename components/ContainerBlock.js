@@ -8,9 +8,9 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Waleed Shahid - Full Stack Developer",
-    description: `Full Stack Developer with 3+ Years Experience. Worked on 50+ projects, Top Rated Freelancer on Upwork, Thinkific Certified Expert.`,
-    image: "/avatar.png",
+    title: "Waqar Saeed - Expert Unity Games Developer",
+    description: `Good Games designed and developed by an Expert in Unity Games, AR, and VR Games. The Best Game Developer YOU Deserve.`,
+    image: "/avatar.jpeg",
     type: "website",
     ...customMeta,
   };
@@ -23,11 +23,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://waleedshahid.com${router.asPath}`}
+          content={`https://waqarsaeed.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://waleedshahid.com${router.asPath}`}
+          href={`https://waqarsaeed.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Waleed Shahid" />

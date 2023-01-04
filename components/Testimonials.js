@@ -17,9 +17,9 @@ export default function Testimonials() {
             {testimonials.map((testimonial, index) => (
                 <div className="flex flex-col justify-center items-center p-10" key={index}>
                     <p className="font-light text-xl my-2">"{testimonial.content}"</p>
-                    <div className="my-2 w-20">
+                    {/* <div className="my-2 w-20">
                         <img className="rounded-full w-full" src={testimonial.avatar} alt={testimonial.client} />
-                    </div>
+                    </div> */}
                     <p className="font-bold text-2xl">{testimonial.client}</p>
                     <p className="font-light text-slate-600">{testimonial.about}</p>
                 </div>
