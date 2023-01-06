@@ -119,8 +119,8 @@ const userData = {
     "/",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/iamwaleedshahid/",
-    github: "https://github.com/iamwaleedshahid",
-    instagram: "https://instagram.com/waleedshahid321"
+    github: "https://github.com/qarixaeed1",
+    instagram: "www.linkedin.com/in/waqar-saeed"
   },
 };
 
