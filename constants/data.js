@@ -15,66 +15,22 @@ const userData = {
     {
       title: "Galaxy Forces VR (Oculus Quest 2 and Pc)",
       link: "/",
-      imgUrl: "/gf.png",
+      imgUrl: "/Galaxy Forces VR.mp4",
     },
     {
       title: "Key Collector (WEBGL and Android)",
       link: "/",
-      imgUrl: "/kc.png",
+      imgUrl: "/KeyCollector.mp4",
     },
     {
       title: "The Mummy Puzzle (pc)",
       link: "/",
-      imgUrl: "/tmp.png",
+      imgUrl: "/Mummy Puzzle(PC).mp4",
     },
     {
       title: "Grand Theft Walrus",
       link: "/",
       imgUrl: "/gtw.png",
-    },
-  ],
-  experience: [
-    {
-      title: "Thinkific x Microsoft SSO",
-      company: "NAS Academy Qatar",
-      year: "2022",
-      companyLink: "https://nas.academy.aero",
-      desc: "Developed an SSO between Thinkific and Microsoft Accounts"
-    },
-    {
-      title: "Custom Invoicing, Checkout, CRM with Thinkific",
-      company: "theChapter Academy",
-      year: "2022",
-      companyLink: "https://www.thechapter.academy",
-      desc: "Developed custom Checkout, Invoicing, CRM, and Webinar Registrations with Saudi Local Systems"
-    },
-    {
-      title: "Thinkfic Design Contract",
-      company: "TwinRay Academy.",
-      year: "2022",
-      companyLink: "https://learn.twinray.com",
-      desc: "Redesign and develop the thinkific website of TwinRay Academy."
-    },
-    {
-      title: "Sales Page Contract",
-      company: "Master The Media",
-      year: "2021",
-      companyLink: "https://masterthemedia.co",
-      desc: "Freelance contract to design sales pages for a signature course."
-    },
-    {
-      title: "Frontend Developer",
-      company: "StudyPass.",
-      year: "2021",
-      companyLink: "https://studypass.com",
-      desc: "A Part-time contract where I lead the technical side of Thinkific LMS. We plan, and excute new features and experience frequently"
-    },
-    {
-      title: "Website Development Contract",
-      company: "Ann Boothello.",
-      year: "2020",
-      companyLink: "https://annboothello.com",
-      desc: "Freelance contract to develop and design the whole website from scratch."
     },
   ],
   testimonials: [
