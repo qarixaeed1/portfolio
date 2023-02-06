@@ -26,14 +26,14 @@ export default function MainContent() {
                     <div className="flex flex-col md:flex-row justify-around py-6 mt-4 border-4 border-white">
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="100" duration="2" />+
+                                <CountUp end="13" duration="2" />+
                             </p>
                             Games Developed
                         </div>
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="30" duration="2" />+
+                                <CountUp end="10" duration="2" />
                             </p>
                             Happy Clients
                         </div>
@@ -47,7 +47,7 @@ export default function MainContent() {
                         <p className="border-b-4 w-full md:border-l-4 border-white md:h-24 md:w-0" />
                         <div>
                             <p className="text-3xl font-black md:text-5xl py-2">
-                                <CountUp end="50" duration="2" />K+
+                                <CountUp end="5" duration="2" />K+
                             </p>
                             In Client Earnings
                         </div>
