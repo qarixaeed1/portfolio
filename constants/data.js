@@ -20,7 +20,7 @@ const userData = {
     {
       title: "Key Collector (WEBGL and Android)",
       link: "/",
-      imgUrl: "/KeyCollector.mp4",
+      
     },
     {
       title: "The Mummy Puzzle (pc)",
